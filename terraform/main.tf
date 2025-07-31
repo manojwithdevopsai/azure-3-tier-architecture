@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 module "rg" {
   source   = "./modules/rg"
   name     = var.rg_name
