@@ -44,7 +44,7 @@ data "azurerm_key_vault_secret" "vm_password" {
   name         = "vm-password"
   key_vault_id = data.azurerm_key_vault.kv.id
 }
-
+#vm
 module "vm" {
   source              = "./modules/vm"
   name                = var.vm_name
