@@ -18,15 +18,4 @@ variable "vm_name" {
   type        = string
 }
 
-variable "vm_username" {
-  description = "VM admin username"
-  type        = string
-  sensitive   = true
-}
-
-variable "vm_password" {
-  description = "VM admin password"
-  type        = string
-  sensitive   = true
-}
 
