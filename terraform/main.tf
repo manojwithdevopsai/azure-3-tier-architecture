@@ -31,7 +31,7 @@ module "nsg" {
 }
 
 data "azurerm_key_vault" "kv" {
-  name                = "savukar"
+  name                = "manojasdfgh"
   resource_group_name = "tfstate-rg"
 }
 
